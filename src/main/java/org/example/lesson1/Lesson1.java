@@ -1,10 +1,10 @@
-package org.example;
+package org.example.lesson1;
 
-import org.example.computer.*;
-import org.example.store.Fork;
-import org.example.store.Store;
-import org.example.store.UsbAdapter;
-import org.example.store.Vodka;
+import org.example.lesson1.computer.*;
+import org.example.lesson1.store.Fork;
+import org.example.lesson1.store.Store;
+import org.example.lesson1.store.UsbAdapter;
+import org.example.lesson1.store.Vodka;
 
 import java.util.HashMap;
 import java.util.Map;

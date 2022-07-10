@@ -1,4 +1,4 @@
-package org.example.computer;
+package org.example.lesson1.computer;
 
 public class Monitor {
     public void showMon() {

@@ -1,4 +1,4 @@
-package org.example.store;
+package org.example.lesson1.store;
 
 public abstract class Good {
 

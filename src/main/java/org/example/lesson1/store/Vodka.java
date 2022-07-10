@@ -1,4 +1,4 @@
-package org.example.store;
+package org.example.lesson1.store;
 
 public class Vodka extends Good {
 
