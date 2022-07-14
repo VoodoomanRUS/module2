@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,23 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="953aa0a3-d36f-40ee-a105-b7c56d1a5da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson2/Homework1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson2/MyList.java" afterDir="false" />
+    <list default="true" id="953aa0a3-d36f-40ee-a105-b7c56d1a5da3" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homework1/NumberList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lesson1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/Lesson1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/computer/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/computer/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/computer/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/computer/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/computer/KeyBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/computer/KeyBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/computer/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/computer/Monitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/computer/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/computer/Mouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/computer/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/computer/Output.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/computer/Tv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/computer/Tv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/store/Fork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/store/Fork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/store/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/store/Good.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/store/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/store/UsbAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/store/UsbAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/store/Vodka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/store/Vodka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +46,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+  </component>
   <component name="ProjectId" id="2BZFb7McZvd0ZHiZMRpsGdW88u5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -65,6 +59,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Application.Lesson2">
     <configuration name="Lesson1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -96,11 +94,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Lesson2" />
-        <item itemvalue="Application.org.example.Lesson1" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\y2286\AppData\Roaming\Subversion</configuration>
   </component>
@@ -125,44 +122,6 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1657456615621">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.832@0.0.1536.832" timestamp="1657456615621" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1657460879224">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1657460879224" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1657460879224">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1657460879224" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1657460879224">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1657460879224" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1657460879224">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1657460879224" />
-    <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1657458946212">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.0.1536.832@0.0.1536.832" timestamp="1657458946212" />
-    <state width="1493" height="264" key="GridCell.Tab.1.center" timestamp="1657458946212">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.center/0.0.1536.832@0.0.1536.832" timestamp="1657458946212" />
-    <state width="1493" height="264" key="GridCell.Tab.1.left" timestamp="1657458946211">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.left/0.0.1536.832@0.0.1536.832" timestamp="1657458946211" />
-    <state width="1493" height="264" key="GridCell.Tab.1.right" timestamp="1657458946212">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.832@0.0.1536.832" timestamp="1657458946212" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
