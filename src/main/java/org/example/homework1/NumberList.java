@@ -3,12 +3,12 @@ package org.example.homework1;
 import java.lang.reflect.Array;
 import java.util.*;
 
-public class NumberList <T extends Number> implements List<T> {
+public class NumberList<T extends Number> implements List<T> {
     private T[] array;
     private int size;
 
-    public NumberList(Class<T> clazz) {
-        this.array = (T[]) Array.newInstance(clazz, 10);
+    public NumberList(Class<T> tclass) {
+        this.array = (T[]) Array.newInstance(tclass, 10);
     }
 
     @Override
@@ -18,10 +18,7 @@ public class NumberList <T extends Number> implements List<T> {
 
     @Override
     public boolean isEmpty() {
-        if (size == 0) {
-            return true;
-        }
-        return false;
+        return size == 0;
     }
 
     @Override
@@ -111,6 +108,27 @@ public class NumberList <T extends Number> implements List<T> {
 
     @Override
     public void add(int i, T t) {
+        size = array.length;
+        if (i > array.length || size == 0) {
+            T[] newArray = (T[]) new Number[i + 1];
+            newArray[i] = t;
+            array = newArray;
+        } else {
+            if (array[i].equals(Number.class)) {
+                T[] newArrayPart1 = Arrays.copyOfRange(array, 0, i);
+                T[] newArrayPart2 = Arrays.copyOfRange(array, i + 1, array.length);
+                T[] newArray = (T[]) new Number[(newArrayPart1.length + 1) + newArrayPart2.length];
+                for (int j = 0; j < newArrayPart1.length; j++) {
+                    newArray[j] = newArrayPart1[j];
+                }
+                for (int j = 0; j < newArray.length; j++) {
+                    newArray[j + newArrayPart1.length + 1] = newArrayPart1[j];
+                }
+            }
+
+
+        }
+
 
     }
 
