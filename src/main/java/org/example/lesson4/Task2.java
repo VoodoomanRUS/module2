@@ -11,6 +11,14 @@ public class Task2 {
         //Дан лист
         List<Integer> integers = List.of(1,2,3,4,5,5,8,8,9);
         Random random = new Random(1);
+        integers.stream()
+                .filter(e -> e > 4)
+                .distinct()
+                .map(e -> Stream.generate(() -> random.nextInt(10)).limit(e).collect(Collectors.toList()))
+                .flatMap(Collection::stream)
+                .map(e -> e * 10)
+                .reduce(Integer::sum)
+                .ifPresentOrElse(System.out::println, () -> System.out.println(0));
 
         //Задача №1
         //Создать класс пользователей, каждый из которых будет иметь порядковый номер, и список с числами
@@ -37,10 +45,18 @@ public class Task2 {
         // 1. Отсортировать список lists так, чтобы сначала были самые большие списки по размеру
         // 2. Вывести на экран все элементы
         // Ожидаемый результат: 3,4,5,1,2
-        
+        lists.stream()
+                .sorted((a,b) -> (a.size() - b.size()) * -1)
+                .flatMap(Collection::stream)
+                .forEach(System.out::println);
+
         //Задача №3
         // 1. Узнать, есть ли в lists хотя бы один список, который содержит сумму всех элементов вложенного листа
         // равную 12
+        boolean anyMatch = lists.stream()
+                .map(e -> e.stream().reduce((a, b) -> a + b).orElse(0))
+                .anyMatch(e -> e == 12);
+        System.out.println(anyMatch);
 
     }
 }
