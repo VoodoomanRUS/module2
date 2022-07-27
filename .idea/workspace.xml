@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,23 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="953aa0a3-d36f-40ee-a105-b7c56d1a5da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson2/Homework1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson2/MyList.java" afterDir="false" />
+    <list default="true" id="953aa0a3-d36f-40ee-a105-b7c56d1a5da3" name="Changes" comment="Решение дз">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson5/HashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson5/Lesson5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson5/MyComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson5/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lesson1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/Lesson1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/computer/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/computer/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/computer/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/computer/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/computer/KeyBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/computer/KeyBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/computer/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/computer/Monitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/computer/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/computer/Mouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/computer/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/computer/Output.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/computer/Tv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/computer/Tv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/store/Fork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/store/Fork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/store/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/store/Good.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/store/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/store/UsbAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/store/UsbAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/store/Vodka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson1/store/Vodka.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +42,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -66,7 +63,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Lesson2">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.lesson4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Lesson5">
     <configuration name="Lesson1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.lesson1.Lesson1" />
       <module name="module2" />
@@ -93,14 +95,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lesson4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson4.Lesson4" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson5.Lesson5" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson4.Task2" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson5" />
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Lesson4" />
         <item itemvalue="Application.Lesson2" />
-        <item itemvalue="Application.org.example.Lesson1" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\y2286\AppData\Roaming\Subversion</configuration>
   </component>
@@ -112,6 +155,28 @@
       <option name="presentableId" value="Default" />
       <updated>1657105772547</updated>
     </task>
+    <task id="LOCAL-00001" summary="Лекция №2">
+      <created>1657461401717</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657461401717</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Лекция №2">
+      <created>1658342845744</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658342845744</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Решение дз">
+      <created>1658496837515</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658496837515</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,45 +189,11 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1657456615621">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.832@0.0.1536.832" timestamp="1657456615621" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1657460879224">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1657460879224" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1657460879224">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1657460879224" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1657460879224">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1657460879224" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1657460879224">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1657460879224" />
-    <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1657458946212">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.0.1536.832@0.0.1536.832" timestamp="1657458946212" />
-    <state width="1493" height="264" key="GridCell.Tab.1.center" timestamp="1657458946212">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.center/0.0.1536.832@0.0.1536.832" timestamp="1657458946212" />
-    <state width="1493" height="264" key="GridCell.Tab.1.left" timestamp="1657458946211">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.left/0.0.1536.832@0.0.1536.832" timestamp="1657458946211" />
-    <state width="1493" height="264" key="GridCell.Tab.1.right" timestamp="1657458946212">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.832@0.0.1536.832" timestamp="1657458946212" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Лекция №2" />
+    <MESSAGE value="Решение дз" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решение дз" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
